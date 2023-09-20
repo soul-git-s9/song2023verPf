@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*font-family: 'Nanum Gothic', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&subset=korean');
+
+body{
+	font-family:'Nanum Gothic','나눔 고딕','맑은고딕',sans-serif;;
+}
+#wrap{
+	width:1200px;
+	margin:0 auto;
+}
+header{
+	width:1200px; height:86px;
+	margin:0 auto;
+	position:relative;
+	background-color:#f8f6f6;
+}
+header h1{
+	text-indent:-9999px;
+}
+header h1 img{
+	width:75px; height:75px;
+	position:absolute;
+	top:8px; left:55px;
+}
+header ul{
+	position:absolute;
+	top:34px; right:0;
+}
+header li{
+	float:left;
+	margin-right:120px;
+}
+header li:nth-of-type(1){
+	text-decoration:line-through;
+}
+header li:nth-of-type(4){
+	margin-right:180px;
+	
+}
+header li:nth-of-type(1):hover{
+	font-weight:700;
+}
+header li:nth-of-type(4):hover{
+	font-weight:700;
+}
+header li>a{
+	color:#000;
+}
+header img{
+	position:absolute;
+	top:14px; right:44px;
+}

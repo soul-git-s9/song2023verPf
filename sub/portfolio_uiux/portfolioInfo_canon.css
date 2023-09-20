@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&subset=korean');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+.thin	{font-weight: 100;}
+.light	{font-weight: 300;}
+.regular	{font-weight: 400;}
+.medium	{font-weight: 500;}
+.bold	{font-weight: 700;}
+.bolder	{font-weight: 900;}
+
+
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#wrap{
+  width:1200px;
+  margin:0 auto;
+  border:1px solid #efefef;
+}
+
+
+/* header */
+header{
+  width:1200px;
+  position:relative;
+}
+h1{
+text-indent:-9999px;
+height:480px;
+}
+h1>img{
+  position:absolute;
+  top:0; left:0;
+}
+.title{
+  width:1200px; height:214px;
+  background-color:#000;
+  box-sizing:border-box;
+}
+.title p{
+  color:#fff;
+  font-size:18px;
+  line-height:1.4;
+
+}
+.title p>span{
+  color:#fff;
+  font-size:14px;
+  font-weight:700;
+}
+
+.title_left{
+  width:600px; height:214px;
+  box-sizing:border-box;
+  float:left;
+  padding:30px 40px 30px 200px;
+}
+.title_left p:nth-of-type(2){
+  margin-top:20px;
+}
+.title_right{
+  width:600px; height:214px;
+  box-sizing:border-box;
+  float:left;
+  padding:30px 40px 30px 40px;
+}
+.title_right p:nth-of-type(2){
+  margin-top:20px;
+  text-transform: uppercase;
+}
+
+
+
+h2{
+  font-size:30px;
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+/*section1 - design concept*/
+.designConcept{
+  width:1200px; height:400px;
+  position:relative;
+}
+.designConcept>h2{
+  position:absolute;
+  top:86px; left:186px;
+}
+.designConcept>img{
+  position:absolute;
+  top:102px; left:0;
+}
+.designConcept p:nth-of-type(1){
+  position:absolute;
+  top:182px; left:350px;
+  line-height:1.6;
+}
+.designConcept p:nth-of-type(2){
+  position:absolute;
+  top:262px; left:350px;
+  line-height:1.6;
+}
+.designConcept p:nth-of-type(2)>span{
+  font-weight:800;
+}
+
+/*section2 - typography*/
+
+.typography{
+  width:1200px; height:370px;
+  position:relative;
+  background-color:#f9f9f9;
+  box-sizing: border-box;
+}
+.typography>h2{
+  position:absolute;
+  top:46px; left:186px;
+}
+.typography>img{
+  position:absolute;
+  top:62px; left:0;
+}
+.typography>.typography_txt{
+  position:absolute;
+  top:132px; left:350px;
+}
+.typography ul{
+  float:left;
+  margin-right:100px;
+}
+.typography li{
+  line-height:1.6;
+  font-family:'Noto Sans KR', sans-serif;
+}
+.typography li:nth-of-type(1){
+  font-weight:100;
+}
+.typography li:nth-of-type(2){
+  font-weight:300;
+}
+.typography li:nth-of-type(3){
+  font-weight:400;
+}
+.typography li:nth-of-type(4){
+  font-weight:500;
+}
+.typography li:nth-of-type(5){
+  font-weight:700;
+}
+.typography li:nth-of-type(6){
+  font-weight:900;
+}
+.typography_txt ul:nth-of-type(3){
+  margin-right:0;
+}
+
+/*section3 - publishing*/
+
+.publishing{
+  width:1200px; height:700px;
+  position:relative;
+
+}
+.publishing>h2{
+  position:absolute;
+  top:86px; left:186px;
+}
+.publishing>img{
+  position:absolute;
+  top:102px; left:0;
+}
+.publishing>p{
+  position:absolute;
+  top:182px; left:350px;
+  line-height:1.6;
+}
+.publishing>.homepageVisit{
+  width:290px; height:60px; line-height:60px;
+  text-align:center;
+  background-color:#b89183;
+  border:2px solid #000;
+  position:absolute;
+  bottom:100px; left:50%;
+  margin-left:-145px;
+}
+.publishing>.homepageVisit>a{
+  display:block;
+  width:290px; height:60px;
+  color:#fff;
+}
+
+
+/* 다른목록을 이동*/
+
+.listBack>h3{
+  margin-top:100px;
+  text-align: center;
+
+}
+.listBack>h3>a{
+  color:#898989;
+}
+
+footer{
+  text-align:center;
+  font-size:12px;
+  margin:200px auto 20px auto;
+  color:#898989;
+}

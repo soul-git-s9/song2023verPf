@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Basic-Regular';
+  src: url('Basic-Regular.eot');
+  src: url('Basic-Regular.woff2') format('woff2'),
+       url('Basic-Regular.woff') format('woff'),
+       url('Basic-Regular.svg#Basic-Regular') format('svg'),
+       url('Basic-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

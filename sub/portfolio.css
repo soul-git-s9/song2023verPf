@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.wrap{
+  width:1300px;
+  margin:0 auto;
+  font-family:'나눔바른고딕','Nanum Gothic','나눔 고딕','맑은고딕',sans-serif;
+}
+/** header **/
+header{
+  width:1100px; height:100px;
+  margin:25px auto 0 auto;
+
+}
+header>h1{
+  font-size:18px;
+  float:left;
+  margin-left:40px;
+  margin-right:180px;
+  
+
+}
+
+header a{
+  color:#000;
+}
+header span:nth-of-type(2),span:nth-of-type(3){
+  letter-spacing:4px;
+  font-size:24px;
+  font-weight:100;
+  color:#fff;
+}
+header span:nth-of-type(1),span:nth-of-type(4){
+  color:#000;
+  font-size:24px;
+   font-weight:100;
+}
+header ul{
+padding-top:9px;
+}
+header li{
+  float:left;
+  margin-right:210px;
+}
+header li:nth-of-type(3){
+  margin-right:0;
+}
+
+
+/**contents**/
+
+
+section{
+  width:1300px;
+  margin:0 auto;
+}
+section ul{
+  width:1032px;
+  margin:50px auto;
+}
+
+section .webPortfolio_tit{width:1300px; font-size:24px; font-weight:bold;}
+section .webPortfolio_tit span{padding-left:130px;}
+
+section li{
+  width:300px; height:300px;
+  float:left;
+  margin-right:66px;
+  margin-bottom:66px;
+  background-color:#f9f8f8;
+}
+section li img{
+  width:300px;
+}
+
+section li.portfolio01{
+  background:url(img/portfolio01.jpg);
+}
+
+section li:nth-of-type(3){
+  margin-right:0;
+}
+section li:nth-of-type(6){
+  margin-right:0;
+}
+section a{
+  display:block;
+  width:300px; height:300px;
+}
+
+footer{
+  clear:both;
+  width:1300px; height:20px;
+  text-align:center;
+  margin:0 auto;
+  padding-top:300px;
+  font-size:12px;
+  letter-spacing:.5px;
+  color:#4c4c4c;
+}
