@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>투두리스트</title>
+    <link rel="stylesheet" href="list_style.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <header>To Do List</header>        
+        <div class="inputField">
+            <button type="button" id = "btn" onclick="addTodo()">할 일 추가</button>
+            <input type="text" id="addValue" placeholder="할 일을 적어주세요" autofocus/><!--자동포커스-->
+             
+            
+           
+        </div>
+        <div class="todopad">
+            <ul id="addTodo" class="Todolist"> 
+                <li><div id="result"></div></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <button type="button" id="allClear" onclick="allClearList()">모두 삭제</button>
+        </div>
+    </div>
+    <script src="list.js"></script>
+</body>
+</html>
