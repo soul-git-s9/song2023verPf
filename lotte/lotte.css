@@ -147,6 +147,10 @@ section:nth-of-type(3){
 section:nth-of-type(4){
 	background-image:url(img/bg4.jpg);
 }
+section:nth-of-type(5){
+	background-image:url(img/bg5.jpg);
+}
+
 
 
 /*컨텐츠별 디자인요소*/
