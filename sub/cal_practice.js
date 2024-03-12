@@ -1,5 +1,5 @@
 var inp = document.forms['cal'];
-var input = inp.getElementsByTagName("input");
+var input = inp.getElementsByTagName('input');
 var cls_btn = document.getElementsByClassName('cls_btn')[0];
 var result_btn = document.getElementsByClassName('result_btn')[0];
 
