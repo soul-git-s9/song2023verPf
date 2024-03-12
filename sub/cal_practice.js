@@ -11,7 +11,7 @@ function calc(value){
 	if(inp['result'].value == 0){
 		inp['result'].value == '';
 	}
-	inp['result'].value == += value;
+	inp['result'].value += value;
 }
 
 function my_result(){
