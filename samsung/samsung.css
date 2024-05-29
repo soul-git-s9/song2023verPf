@@ -1,8 +1,11 @@
 @charset "utf-8";
 
+*{margin:0; padding:0;}
+
 header h1{display:inline-block; margin:15px;}
 header ul{display:inline-block; float:right; margin:15px; margin-top:10px;}
 header li{display:inline-block; margin: 0 10px; }
+header li a{text-decoration:none;}
 header li span{color:#000; vertical-align:super;}
 header li span:hover{color:gray;}
 header li img{width:30px;}
@@ -11,7 +14,7 @@ nav ul{margin-left:8px;}
 nav li{display:inline-block; padding:5px 15px;}
 nav li:hover{ background-color:#000; border-radius: 20px;}
 nav li:hover a span{color:#fff;}
-nav a {vertical-align: text-top;}
+nav a {text-decoration:none; vertical-align: text-top;}
 nav a span{color:#000; font-size:14px; font-weight:700; line-height:14px;}
 
 
