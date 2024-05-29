@@ -5,19 +5,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<title>삼성 메인디자인</title>
-		<link rel="stylesheet" href="../../common/reset.css"/>
+		<link rel="stylesheet" href="../common/reset.css"/>
 		<link rel="stylesheet" href="samsung.css"/>
-		<link href="../../common/datatables.min.css" rel="stylesheet">
-		<script src="../../common/datatables.min.js"></script>
-		<script src="../../common/prefixfree.min.js"></script>
-		<script src="../../common/jquery-3.3.1.min.js"></script>
+		<link href="../common/datatables.min.css" rel="stylesheet">
+		<script src="../common/jquery-3.3.1.min.js"></script>
+		<script src="../common/datatables.min.js"></script>
+		<script src="../common/prefixfree.min.js"></script>
 	</head>
 	<body>
 		<div id="wrap">
 			<header>
 			<h1><a href="javascript:void"><img src="../samsung/img/samsung_logo.jpg" alt="삼성_로고"></a></h1>
 			<ul>
-				<li><a href="https://soul-git-s9.github.io/sub/portfolio.html" target="_blank"><span>PORTFOLIO</span></a></li>
+				<li><a href="https://soul-git-s9.github.io/song2023verPf" target="_blank"><span>PORTFOLIO</span></a></li>
 				<li><a href="javascript:void"><img src="img/search.png"></a></li>
 				<li><a href="javascript:void"><img src="img/user.png"></a></
 			</ul>
@@ -62,7 +62,7 @@
 				 });
 			});
 
-			const datatable = () => {
+			function datatable = () => {
 				DATATABLE=$('#info_list_table').DataTable({
 					"order": [[2,'desc']],
 					"iDisplayLength":10,
