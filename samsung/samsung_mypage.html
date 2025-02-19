@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<title>삼성 메인디자인</title>
+		<title>마이페이지</title>
 		<link rel="stylesheet" href="../common/reset.css"/>
 		<link rel="stylesheet" href="samsung.css"/>
 		<link href="../common/datatables.min.css" rel="stylesheet">
@@ -13,7 +13,7 @@
 		<script src="../common/prefixfree.min.js"></script>
 	</head>
 	<body>
-		<div id="wrap">
+        <div id="wrap">
 			<header>
 			<h1><a href="javascript:void"><img src="../samsung/img/samsung_logo.jpg" alt="삼성_로고"></a></h1>
 			<ul>
@@ -37,57 +37,37 @@
 				<li><a href="javascript:void" target="_blank"><span>아울렛</span></a></li>
 			</ul>
 			</nav>
-			<section class="main">
-				<div>
-					<p>함께하면 좋은<br>Galaxy</p>
-					<a href="https://www.samsung.com/"><span>삼성 홈페이지</span></a>
-				</div>
-			</section>
-			<section class="newsLetter">
-				<h3>newsletter</h3>
-				<p>Would you like to receive this brand's newsletter? Please enter your email if you would like to receive it.</p>
-				<div>
-				<input type="text" placeholder="Please write your email">
-				<button>send</button>
-				</div>
-			</section>
-			<footer>
-				<p>&copy; 2024. KIM SONG HEE. all rights reserved.</p>
-			</footer>
-		</div>
-		<script type="text/javascript">
-			$(function() {
-				 $(".newsLetter button").on("click", function() {
-				 	alert('구독해주셔서 감사합니다');
-				 });
-			});
-
-			function datatable() {
-				DATATABLE=$('#info_list_table').DataTable({
-					"order": [[2,'desc']],
-					"iDisplayLength":10,
-					"ajax" : {
-						url:"/_PAGE/_Info/",
-						type:"POST",
-						data:function(d){
-						},
-					},
-					"pagingType": "full_numbers",
-					"columns": [
-						{ "data": "idx","visible": false},
-						{ "data": "chk", "class":"pub_td_chk", "orderable": false},
-						{ "data": "requestNum","class":"pub_td_request_num"},
-						{ "data": "approvalTime", "class":"pub_td_date"}
-					],
-					"initComplete": function(settings, data, dataIndex){
-						basicTableInitComplete(this,'y');
-					},
-					fnRowCallback: function(nRow, aData, iDisplayIndex, iDisplayIndexFull){
-					},
-					"fnDrawCallback": function(oSettings){
-					}
-				});
-			}	
-		</script>	
-	</body>
+        </div>
+        <div class="mypage_container">
+            <h4 class="tit">My page</h4>
+            <div class="info">
+                <span>이름</span>
+                <input type="text" value="이름">
+            </div>
+            <div class="info">
+                <span>아이디</span>
+                <input type="text" value="kkssh57" disabled>
+            </div>
+            <div class="info">
+                <span>비밀번호</span>
+                <input type="password">
+            </div>
+            <div class="info">
+                <span>비밀번호 확인</span>
+                <input type="password">
+            </div>
+            <div class="info">
+                <span>연락처</span>
+                <input type="text" value="010-1234-1234">
+            </div>
+            <div class="info">
+                <span>우편번호</span>
+                <input type="text" value="12345">
+            </div>
+            <div class="info">
+                <span>주소</span>
+                <input type="text">
+            </div>
+        </div>
+    </body>
 </html>
