@@ -1,11 +1,21 @@
 @media (max-width: 1400px) {
     .wrap{width:100%;}
     header{width:100%;}
-    .con {width:100%; height:1100px;}
+    .con {width:100%; height:1800px;}
     .con ul {width:500px; margin:0 auto; margin-top:120px;}
     .con li {width:500px; height:500px; margin-bottom:50px; margin-right:0;}
     .con li>a {width:500px; height:500px; }
     .con li img {width:500px; height:500px;}
-    footer{width:100%; margin:0 auto;}
+    footer{width:100%; margin:0 auto; margin-bottom:60px;}
+}
+
+@media (max-width: 690px) {
+    .con {height:1000px;}
+    .con ul {width:300px; margin:0 auto; margin-top:120px;}
+    .con li {width:300px; height:300px; margin-bottom:50px; margin-right:0;}
+    .con li>a {width:300px; height:300px; }
+    .con li img {width:300px; height:300px;}
+    footer{margin-bottom:40px;}
+
 }
 
