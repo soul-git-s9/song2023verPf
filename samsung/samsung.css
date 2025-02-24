@@ -59,12 +59,7 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
     .main {height:450px;}
     .main > div{height:550px;}
     .main > div > p{left:80px;}
-
-    .mypage_container{width:100%;}
-    .mypage_container .info_wrap{width:100%;}
-    .mypage_container .info {margin-bottom:20px;}
-    .mypage_container .info span{margin-bottom:12px;}
-    .mypage_container .info input{width:100%; margin:0 10px; box-sizing:border-box;}
+   
 }
 
 @media (max-width: 1024px) {
@@ -73,6 +68,13 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
     .main > div > p{top:78px; left:96px; font-size:50px;}
     .main > div > a{top:222px; left:98px; }
     .main > div > a > span {font-size:13px;}
+
+    .mypage_container{width:100%;}
+    .mypage_container .info_wrap{width:100%;}
+    .mypage_container .info {margin-bottom:20px;}
+    .mypage_container .info span{margin-bottom:12px;}
+    .mypage_container .info input{width:100%; margin:0 10px; box-sizing:border-box;}
+    .mypage_container .info .error-message::after{top:70px; left:10px;}
 }
 
 @media (max-width: 768px) {
@@ -81,9 +83,11 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
     .main > div > p{top:80px; left:48px; font-size:26px;}
     .main > div > a{display:none; }
 
+    
     .newsLetter{width:100%;}
-    .newsLetter>div {width:100%; margin: 0 10px;}
+    .newsLetter>div {width:94%; margin: 0 auto;}
     .newsLetter h3{font-size:14px; padding-top:50px;}
+    .newsLetter p{margin:16px;}
     .newsLetter input{width:100%;}
     .newsLetter button{display:block; width:100%; margin-top:10px;}
 }
