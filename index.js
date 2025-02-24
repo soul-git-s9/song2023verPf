@@ -5,17 +5,16 @@ $(function() {
         { normal: 'img/contact.png', hover: 'img/bg_contact.png' }
     ];
 
-    $('.con li').each(function(index) {
-        $(this).on('click', function() {
-            // 모든 li에서 active 제거 후 현재 li에만 추가
-            $('.con li').removeClass('active');
+    $('.con li').hover(
+        function() {
+            // hover 시 active 클래스 추가
             $(this).addClass('active');
-
-            // 이미지 변경
-            $('.con li img').each(function(i) {
-                $(this).attr('src', images[i].normal);
-            });
-            $(this).find('img').attr('src', images[index].hover);
-        });
-    });
+            $(this).find('img').attr('src', images[$(this).index()].hover);
+        }, 
+        function() {
+            // hover 해제 시 active 클래스 제거
+            $(this).removeClass('active');
+            $(this).find('img').attr('src', images[$(this).index()].normal);
+        }
+    );
 });
