@@ -57,7 +57,7 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
 
 @media (max-width: 1400px) {
     .main {height:450px;}
-    .main > div{height:550px;}
+    .main > div{height:450px;}
     .main > div > p{left:80px;}
    
 }
@@ -70,10 +70,10 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
     .main > div > a > span {font-size:13px;}
 
     .mypage_container{width:100%;}
-    .mypage_container .info_wrap{width:100%;}
+    .mypage_container .info_wrap{width:90%;}
     .mypage_container .info {margin-bottom:20px;}
     .mypage_container .info span{margin-bottom:12px;}
-    .mypage_container .info input{width:100%; margin:0 10px; box-sizing:border-box;}
+    .mypage_container .info input{width:100%; box-sizing:border-box;}
     .mypage_container .info .error-message::after{top:70px; left:10px;}
 }
 
