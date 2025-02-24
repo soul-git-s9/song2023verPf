@@ -40,7 +40,7 @@ nav a span{color:#000; font-size:14px; font-weight:700; line-height:14px;}
 .mypage_container h4{margin-top:50px; margin-bottom:100px; text-align:center; font-size:30px; font-weight:bold;}
 .mypage_container .info_wrap {width:760px; margin:0 auto;}
 .mypage_container .info {position:relative;}
-.mypage_container .info span {display:inline-block; width:150px; margin-bottom:30px;text-align:right;}
+.mypage_container .info span {display:inline-block; width:150px; margin-bottom:30px;text-align:left;}
 .mypage_container .info input {width:500px; padding:10px; border:1px solid #efefef;}
 .mypage_container .info input:disabled {color:#b3b3b3;}
 .mypage_container .info .error {border: 2px solid red !important;}
