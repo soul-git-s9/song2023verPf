@@ -31,7 +31,7 @@ nav a span{color:#000; font-size:14px; font-weight:700; line-height:14px;}
 .newsLetter{margin:0 auto; width:100%; height:275px; background-color:#2270ff;}
 .newsLetter h3{text-align: center; text-transform: uppercase; letter-spacing: 4px; font-weight:700; font-size:18px; padding-top:80px; color:#fff;}
 .newsLetter p{font-size:10px; margin-top:16px; text-align:center; line-height:16px; color:#fff;}
-.newsLetter input{padding:10px 150px 10px 10px; border:2px solid #efefef; font-size:10px;color:#959595;}
+.newsLetter input{padding:10px 150px 10px 10px; border:2px solid #efefef; font-size:10px;color:#959595; box-sizing:border-box;}
 .newsLetter button{padding:8px 40px 8px 40px; border:2px solid #fff; background-color: #2270ff; color:#fff; text-transform: uppercase; cursor: pointer;}
 .newsLetter>div{width:450px;margin:30px auto;}
 .newsLetter input{margin-right:10px;}
@@ -75,6 +75,7 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
     .main > div > p{top:80px; left:48px; font-size:26px;}
     .main > div > a{display:none; }
 
+    .newsLetter{width:100%;}
     .newsLetter h3{font-size:14px; padding-top:50px;}
     .newsLetter input{width:100%;}
     .newsLetter button{display:block; width:100%; margin-top:10px;}
