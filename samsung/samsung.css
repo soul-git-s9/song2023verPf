@@ -42,7 +42,7 @@ nav a span{color:#000; font-size:14px; font-weight:700; line-height:14px;}
 .mypage_container .info span {display:inline-block; width:150px; margin-bottom:30px;text-align:}
 .mypage_container .info input {width:500px; padding:10px; border:1px solid #efefef;}
 .mypage_container .info input:disabled {color:#b3b3b3;}
-#valiadateBtn{display: block; width: 100px; height: 40px; line-height: 40px; margin: 0 auto; margin-top: 40px;}
+#validateBtn{display: block; width: 100px; height: 40px; line-height: 40px; margin: 0 auto; margin-top: 40px;}
 .error {border: 2px solid red !important;}
 .error-message {display:block; margin-top:5px; color:red; font-size:12px;}
 

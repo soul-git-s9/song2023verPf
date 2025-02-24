@@ -90,6 +90,7 @@
 			}	
 
 			document.getElementById('validateBtn').addEventListener('click', function() {
+				console.log('버튼 클릭됨!');
 				var inputs = document.querySelectorAll('.info_wrap input:not([disabled])');
 
 				inputs.forEach(function(input) {
@@ -116,7 +117,6 @@
 					}
 				});
 			});
-
 		</script>	
 	</body>
 </html>
