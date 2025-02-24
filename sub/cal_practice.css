@@ -4,9 +4,9 @@ caption{font-size:32px; display:none;}
 
 table{width:320px; margin:0 auto; margin-top:40px; }
 table,th{background:#333;}
-table th{padding-right:10px; height:80px;}
+table th{padding-right:10px; height:80px; box-sizing:border-box;}
 table td{height:75px; text-align:center;}
-table th>input{width:100%; border:none; background:#333; color:white; text-align:right; font-size:48px;}
+table th>input{border:none; background:#333; color:white; text-align:right; font-size:48px;}
 table td>input[type="button"]{width:100%; height:inherit; color:#333; font-size:36px; border:none;}
 table td>input[type="button"]:hover{background:#999;}
 table td:last-child>input{background:orange; color:white;}
