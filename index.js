@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
     var images = [
         { normal: 'img/about.png', hover: 'img/bg_about.png' },
         { normal: 'img/portfolio.png', hover: 'img/bg_portfolio.png' },
@@ -7,14 +7,25 @@ $(function() {
 
     $('.con li').hover(
         function() {
-            // hover 시 active 클래스 추가
             $(this).addClass('active');
             $(this).find('img').attr('src', images[$(this).index()].hover);
-        }, 
+
+            // CSS 스타일 추가
+            $(this).css({
+                'opacity': '0.9',
+                'transform': 'translate(2px, 2px)',
+                'transition': 'all 0.3s ease-in-out'
+            });
+        },
         function() {
-            // hover 해제 시 active 클래스 제거
             $(this).removeClass('active');
             $(this).find('img').attr('src', images[$(this).index()].normal);
+
+            // 원래 스타일로 복귀
+            $(this).css({
+                'opacity': '1',
+                'transform': 'translate(0, 0)'
+            });
         }
     );
 });
