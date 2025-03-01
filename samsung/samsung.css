@@ -44,11 +44,13 @@ nav a span{color:#000; font-size:14px; font-weight:700; line-height:14px;}
 .mypage_container .info {position:relative;}
 .mypage_container .info span {display:inline-block; width:150px; margin-bottom:30px;text-align:left;}
 .mypage_container .info input {width:500px; padding:10px; border:1px solid #efefef;}
+.mypage_container .info input#postcode {width:150px;}
 .mypage_container .info input:disabled {color:#b3b3b3;}
 .mypage_container .info .error {border: 2px solid red !important;}
 .mypage_container .info .error-message {display:block; margin-top:5px; color:red; font-size:12px;}
 .mypage_container .info .error-message::after {content: '필수값 입니다. 내용을 입력하세요.'; display: block; position: absolute; top: 47px; left: 154px;}
-.mypage_container #validateBtn{display: block; width: 100px; height: 40px; line-height: 40px; margin: 0 auto; margin-top: 40px;}
+.mypage_container #validateBtn{display: block; width: 100px; height: 40px; line-height: 40px; margin: 0 auto; margin-top: 40px; background-color: #2270ff; color:#fff;}
+.mypage_container #searchAddress{padding:8px; box-sizing:border-box;}
 
 
 /*footer*/
