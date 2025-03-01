@@ -11,6 +11,7 @@
 		<script src="../common/jquery-3.3.1.min.js"></script>
 		<script src="../common/datatables.min.js"></script>
 		<script src="../common/prefixfree.min.js"></script>
+		<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 	</head>
 	<body>
         <div id="wrap">
@@ -66,9 +67,18 @@
                     <input type="text" value="12345">
                 </div>
                 <div class="info">
-                    <span>주소</span>
-                    <input type="text">
-                </div>
+					<span>우편번호</span>
+					<input type="text" id="postcode" placeholder="우편번호" readonly>
+					<button id="searchAddress">주소 검색</button>
+				</div>
+				<div class="info">
+					<span>주소</span>
+					<input type="text" id="address" placeholder="주소" readonly>
+				</div>
+				<div class="info">
+					<span>상세 주소</span>
+					<input type="text" id="detailAddress" placeholder="상세 주소 입력">
+				</div>
             </div>
             <button id="validateBtn">확인</button>
         </div>
@@ -99,6 +109,17 @@
 						}
 					}
 				});
+			});
+
+			document.getElementById("searchAddress").addEventListener("click", function() {
+				new daum.Postcode({
+					oncomplete: function(data) {
+						// 선택한 주소 정보를 입력 필드에 채우기
+						document.getElementById("postcode").value = data.zonecode; // 우편번호
+						document.getElementById("address").value = data.address;   // 기본 주소
+						document.getElementById("detailAddress").focus();          // 상세 주소 입력창으로 포커스 이동
+					}
+				}).open();
 			});
         </script>
     </body>
