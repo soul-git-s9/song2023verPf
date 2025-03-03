@@ -78,14 +78,14 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
     .mypage_container .info span{margin-bottom:12px;}
     .mypage_container .info input{width:100%; box-sizing:border-box;}
     .mypage_container .info .error-message::after{top:70px; left:10px;}
+    .mypage_container .info input#postcode {width:78%;}
 }
 
 @media (max-width: 768px) {
     .main {height:214px;}
     .main > div{height:214px;}
     .main > div > p{top:80px; left:48px; font-size:26px;}
-    .main > div > a{display:none; }
-
+    .main > div > a{display:none;}
     
     .newsLetter{width:100%;}
     .newsLetter>div {width:94%; margin: 0 auto;}
