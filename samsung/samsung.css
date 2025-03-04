@@ -9,7 +9,7 @@
 
 
 header h1{display:inline-block; margin:15px;}
-header ul{display:inline-block; float:right; margin:15px; margin-top:10px;}
+header ul{float:right; margin:15px; margin-top:10px;}
 header li{display:inline-block; margin: 0 10px; }
 header li a{text-decoration:none;}
 header li span{color:#000; vertical-align:super;}
@@ -21,7 +21,7 @@ nav ul{display:flex; padding:0; margin:0;}
 nav li{display:inline-block; padding:0 10px; flex: 0 0 auto;}
 nav li:hover{ background-color:#000; border-radius: 20px;}
 nav li:hover a span{color:#fff;}
-nav a {display: block; height: 40px; line-height: 40px; padding: 0 15px; text-decoration: none; color: #333; font-weight: bold; vertical-align:middle;}
+nav a {display: block; height: 40px; line-height: 40px; padding: 0 15px; text-decoration: none; color: #333; font-weight: bold;}
 nav a span{color:#000; font-size:14px; font-weight:700; line-height:14px;}
 
 
@@ -52,7 +52,7 @@ section.product .right_wrap img {width:49%; cursor:pointer;}
 .newsLetter input{margin-right:10px;}
 
 /*마이페이지*/
-.mypage_container {display:block; width:960px; margin:0 auto;}
+.mypage_container {display:block; width:960px; margin:0 auto; margin-bottom:100px;}
 .mypage_container h4{margin-top:50px; margin-bottom:100px; text-align:center; font-size:30px; font-weight:bold;}
 .mypage_container .info_wrap {width:760px; margin:0 auto;}
 .mypage_container .info {position:relative;}
