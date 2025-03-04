@@ -28,12 +28,12 @@ nav a span{color:#000; font-size:14px; font-weight:700; line-height:14px;}
 .main > img{position:absolute;top:76px; right:150px;}
 
 /*product*/
-section.product {width: 1440px; margin:40px auto;}
+section.product {width: 1200px; margin:40px auto;}
 section.product {display:flex; gap :10px;}
-section.product .left_wrap {margin-right:10px;}
-section.product .left_wrap img {width:100%;}
-section.product .right_wrap {}
-section.product .right_wrap img {width:25%;}
+section.product .left_wrap {width:100%; margin-right:10px;}
+section.product .left_wrap img {width:100%; cursor: pointer;}
+section.product .right_wrap {width:100%;display:flex; flex-wrap:wrap; gap:10px;}
+section.product .right_wrap img {width:31%; cursor:pointer;}
 
 /*중간 콘텐츠 - newsletter*/
 .newsLetter{margin:0 auto; width:100%; height:275px; background-color:#2270ff;}
