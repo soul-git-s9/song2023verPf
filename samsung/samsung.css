@@ -33,7 +33,7 @@ section.product {display:flex; gap :10px;}
 section.product .left_wrap {width:100%; margin-right:10px;}
 section.product .left_wrap img {width:100%; cursor: pointer;}
 section.product .right_wrap {width:100%;display:flex; flex-wrap:wrap; gap:10px;}
-section.product .right_wrap img {width:31%; cursor:pointer;}
+section.product .right_wrap img {width:49%; cursor:pointer;}
 
 /*중간 콘텐츠 - newsletter*/
 .newsLetter{margin:0 auto; width:100%; height:275px; background-color:#2270ff;}
