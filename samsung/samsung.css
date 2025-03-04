@@ -30,7 +30,7 @@ nav a span{color:#000; font-size:14px; font-weight:700; line-height:14px;}
 /*product*/
 section.product {width: 1200px; margin:40px auto;}
 section.product {display:flex; gap :10px;}
-section.product .left_wrap {width:100%; margin-right:10px;}
+section.product .left_wrap {width:100%;}
 section.product .left_wrap img {width:100%; cursor: pointer;}
 section.product .right_wrap {width:100%;display:flex; flex-wrap:wrap; gap:10px;}
 section.product .right_wrap img {width:49%; cursor:pointer;}
@@ -69,7 +69,11 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
     .main {height:450px;}
     .main > div{height:450px;}
     .main > div > p{left:80px;}
-   
+    
+    section.product {width:100%; flex-direction: column;}
+    section.product .left_wrap{width:96%; padding:10px;}
+    section.product .right_wrap{margin-left:8px;}
+    section.product .right_wrap img{width:47%;}
 }
 
 @media (max-width: 1024px) {
