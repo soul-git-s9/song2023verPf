@@ -51,6 +51,25 @@ section.product .right_wrap img {width:49%; cursor:pointer;}
 .newsLetter>div{width:450px;margin:30px auto;}
 .newsLetter input{margin-right:10px;}
 
+/*랜딩페이지*/
+.landing_container {background:#191919; padding-bottom:100px;}
+.landing_container h4{padding-top:150px; padding-left:40px; line-height:1.4; font-weight:bold; font-size:36px; color:#fff;}
+.landing_container p {padding-top:16px; padding-bottom:30px; padding-left:40px; color:#fff;}
+.landing_container .img_wrap{width:100%;}
+.landing_container .img_wrap img{width:100%;}
+.landing_container .text_wrap h5 { width:100%; padding-top:100px; padding-bottom:60px; text-align:center;font-size:28px; color:#fff;}
+.landing_container .text_wrap .box_wrap {display:flex;}
+.landing_container .text_wrap .con_wrap p {line-height:1.4; }
+.landing_container .text_wrap .con_wrap.left{ width:50%; padding:40px}
+.landing_container .text_wrap .con_wrap.left img{width:100%;}
+.landing_container .text_wrap .con_wrap.right{width:50%; padding-top:40px;}
+.landing_container .box_wrap.second {display:flex; width:100%;}
+.landing_container .box_wrap.second .img_box {width:33.3333%; gap:20px; }
+.landing_container .box_wrap.second .img_box h6 {padding-top:40px;color:#fff; text-align:center; font-size:22px;}
+.landing_container .box_wrap.second .img_box img{width:100%; }
+.landing_container .box_wrap.second .img_box p {margin-top:20px;line-height:1.4; text-align:center;}
+
+
 /*마이페이지*/
 .mypage_container {display:block; width:960px; margin:0 auto; margin-bottom:100px;}
 .mypage_container h4{margin-top:50px; margin-bottom:100px; text-align:center; font-size:30px; font-weight:bold;}
