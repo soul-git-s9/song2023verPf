@@ -133,5 +133,13 @@ footer p{clear:both; color:#fff; font-size:14px; padding-top:15px;text-align: ce
     .newsLetter p{margin:16px;}
     .newsLetter input{width:100%;}
     .newsLetter button{display:block; width:100%; margin-top:10px;}
+
+    .landing_container h4{font-size:28px;}
+    .landing_container .text_wrap h5{font-size:22px;}
+    .landing_container .text_wrap .box_wrap{flex-direction: column;}
+    .landing_container .text_wrap .con_wrap.left{width:90%;}
+    .landing_container .text_wrap .con_wrap.right{width:100%;}
+    .landing_container p{padding-left:20px;}
+    .landing_container .box_wrap.second .img_box{width:100%;}
 }
 
