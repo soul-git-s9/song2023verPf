@@ -70,7 +70,7 @@ section.product .right_wrap img {width:49%; cursor:pointer;}
 .landing_container .box_wrap.second .img_box {width:calc(100% / 3); }
 .landing_container .box_wrap.second .img_box h6 {padding-top:40px;color:#fff; text-align:center; font-size:22px;}
 .landing_container .box_wrap.second .img_box img{width:100%; }
-.landing_container .box_wrap.second .img_box p {margin-top:20px;line-height:1.4; text-align:center;}
+.landing_container .box_wrap.second .img_box p {margin-top:20px; padding-left:0; line-height:1.4; text-align:center;}
 
 
 /*마이페이지*/
