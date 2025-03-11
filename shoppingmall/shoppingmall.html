@@ -79,7 +79,9 @@
         const productHTML = `
             <div class="col-md-4">
             <div class="card">
+                <a href="product.html?id=${product.id}">
                 <img src="${product.image}" class="card-img-top" alt="${product.name}">
+                </a>
                 <div class="card-body">
                 <h5 class="card-title">${product.name}</h5>
                 <p class="card-text">₩ ${product.price.toLocaleString()}</p>
