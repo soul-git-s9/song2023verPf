@@ -75,8 +75,8 @@
                 button.addEventListener("click", function() {
                     removeItem(this.getAttribute("data-index"));
                 });
-                });
-            }
+            });
+        }
 
             function removeItem(index) {
                 let cart = JSON.parse(localStorage.getItem("cart")) || [];
