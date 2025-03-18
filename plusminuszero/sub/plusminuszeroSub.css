@@ -130,9 +130,13 @@ nav img{
   margin-bottom:100px;
 }
 
+.product ul {
+  display:flex;
+  flex-wrap:wrap;
+}
+
 .product li{
   max-width:300px;
-  float:left;
   margin-right:35px;
   font-size: 14px;
 
